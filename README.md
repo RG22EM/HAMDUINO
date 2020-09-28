@@ -1,5 +1,6 @@
 # HAMDUINO
 New (Arduino-compatible, Atmega328PB) board.
+
 Новая, Ардуино совместимая плата на основе микроконтроллера Atmega328PB.
 
 
