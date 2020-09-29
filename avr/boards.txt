@@ -44,7 +44,7 @@ menu.bootloader=Bootloader
 #############################
 
 # General
-328.name=ATmega328
+328.name=HAMDUINO-328PB
 328.upload.tool=avrdude
 328.upload.maximum_data_size=2048
 328.bootloader.tool=avrdude
@@ -247,7 +247,7 @@ menu.bootloader=Bootloader
 #############################
 
 # General
-168.name=ATmega168
+168.name=HAMDUINO-168PB
 168.upload.tool=avrdude
 168.upload.maximum_size=15872
 168.upload.maximum_data_size=1024
@@ -442,7 +442,7 @@ menu.bootloader=Bootloader
 ############################
 
 # General
-88.name=ATmega88
+88.name=HAMDUINO-88PB
 88.upload.tool=avrdude
 88.upload.maximum_data_size=1024
 88.bootloader.tool=avrdude
@@ -629,7 +629,7 @@ menu.bootloader=Bootloader
 ############################
 
 # General
-48.name=ATmega48
+48.name=HAMDUINO-48PB
 48.upload.tool=avrdude
 48.upload.using=avrdude
 48.upload.maximum_size=4096
