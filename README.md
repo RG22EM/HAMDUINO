@@ -14,4 +14,5 @@ New (Arduino-compatible, Atmega328PB) board.
 Планируется возможность использования нескольких ядер, по выбору пользователя.
 Загрузчик на основе OPTIBOOT V.8
 
-Инсталляция - https://github.com/RG22EM/HAMDUINO/releases/download/V1.0.0-Alfa/package_hamduino_index.json
+Инсталляция - https://github.com/RG22EM/HAMDUINO/releases/download/V1.0.0/package_hamduino_index.json
+
