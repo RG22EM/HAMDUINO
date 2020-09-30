@@ -70,7 +70,12 @@ void attachInterrupt(uint8_t interruptNum, void (*userFunc)(void), int mode)
     // to the configuration bits in the hardware register, so we simply shift
     // the mode into place.
     
-    // Enable interrupt        
+    // Enable interrupt
+     EIFR = 0x01;
+	 
+    switch(interruptNum) 
+    {
+// ATmega64, ATmega128, ATmega1281, ATmega2561, AT90CAN32, AT90CAN64, AT90CAN128	
     switch(interruptNum) 
     {
 // ATmega64, ATmega128, ATmega1281, ATmega2561, AT90CAN32, AT90CAN64, AT90CAN128
