@@ -1,0 +1,44 @@
+{
+    "packages": [
+        {
+            "name": "hamduino",
+            "maintainer": "RG22EM",
+            "websiteURL": "https://github.com/RG22EM/HAMDUINO",
+            "email": "arduino@cherkessk.su",
+            "help": {
+                "online": "https://cherkessk.su/"
+            },
+            "platforms": [
+                {
+                    "name": "HAMRADIO Boards",
+                    "architecture": "avr",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/RG22EM/HAMDUINO/archive/V1.0.0.zip",
+                    "archiveFileName": "HAMDUINO-1.0.0.zip",
+                    "checksum": "SHA-256:68EF88998555366C6BC011B34C2183502EA075F9302CD5A6AA432BD5D7C6EE1A",
+                    "size": "1497105",
+                    "help": {
+                        "online": "https://cherkessk.su/"
+                    },
+                    "boards": [
+                        {
+                            "name": "HAMDUINO-328PB"
+                        },
+						{
+							"name": "HAMDUINO-168PB"
+						},
+						{
+							"name": "HAMDUINO-88PB"
+						},
+						{
+							"name": "HAMDUINO-48PB"
+						}						
+					],
+                    "toolsDependencies": []
+				}
+			],
+            "tools": []
+        }
+    ]
+}
